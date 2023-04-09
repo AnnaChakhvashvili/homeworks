@@ -1,4 +1,4 @@
-# Comparison 
+# Comparison შედარება სხვადასხვა მოქმედებებით 
 x = 15 
 print(x != 10)
 print(x >= 10)
@@ -7,7 +7,7 @@ print(x % 10)
 print(x / 10)
 print(x // 12)
 print(x ** 12)
-# for char
+# დაიპრინტება ის , რომელშიც მეტი თანხმოვანი იქნება 
 name1 = input("enter name1: ")
 ammount_of_consonants_in_name1 = 0
 name2 = input("enter name2: ")
@@ -21,7 +21,7 @@ for char in name2:
         ammount_of_consonants_in_name2 += 1
 if ammount_of_consonants_in_name2 > ammount_of_consonants_in_name1 :
     print("the ammount of consonant in name2 is more and it contains {} consonants".format(ammount_of_consonants_in_name2))
-# sum
+# sum დაჯამება კენტი რიცხვების
 num1 = int(input("enter num1: "))
 num2 = int(input("enter num2: "))
 num3 = int(input("enter num3: "))
